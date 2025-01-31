@@ -38,3 +38,43 @@ venv\Scripts\activate
 On macOS/Linux:
 source venv/bin/activate
 
+5. Install the required dependencies:
+pip install -r requirements.txt
+
+6. Verify the installation:
+python --version
+pip list
+
+Usage
+1. Open Google Colab.
+2. Upload Wash_Trading_Final_Colab.ipynb.
+3. Run the notebook step by step to analyze the wash trading detection models.
+4. To use a specific model for anomaly detection, load the corresponding .pkl file and apply it to the dataset.
+
+Files in the Repository
+1. LICENSE: License information for the project.
+2. LOF_model.pkl: Pre-trained LOF model for anomaly detection.
+3. NEAR_token_transaction_data.xlsx: Raw transaction data for NEAR tokens.
+4. Pre_processed_ERC20_token_transaction.csv: Preprocessed transaction data for ERC20 tokens.
+5. README.md: Project documentation.
+6. Wash_Trading_Final_Colab.ipynb: Jupyter Notebook containing wash trading detection analysis.
+7. arima_model.pkl: Pre-trained ARIMA model for anomaly detection.
+8. ensemble_model.pkl: An ensemble of multiple models for better anomaly detection.
+9. iso_forest_model.pkl: Isolation Forest model for detecting anomalies.
+10. lstm_anomaly_detector.h5: LSTM model for anomaly detection in time-series data.
+11. preprocessed_normalized_dataset.csv: Preprocessed and normalized dataset used for model training.
+12. svm_model.pkl: Support Vector Machine model for classification tasks.
+
+Contributing
+If you would like to contribute to this project:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -m "Added a new feature").
+4. Push to the branch (git push origin feature-branch).
+5. Open a Pull Request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For any questions or issues, please reach out to the contributors through GitHub or open an issue in the repository.
