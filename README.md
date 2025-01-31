@@ -73,8 +73,8 @@ If you would like to contribute to this project:
 4. Push to the branch (git push origin feature-branch).
 5. Open a Pull Request.
 
-License
+License: 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+Contact: 
 For any questions or issues, please reach out to the contributors through GitHub or open an issue in the repository.
